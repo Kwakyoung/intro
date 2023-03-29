@@ -1,0 +1,36 @@
+/* 스타일시트 선택자 종류중 일부..
+     1. 전체 선택자
+     2. 태그
+     3. 클래스
+     4. 아이디
+     5. 그룹 */
+h2{
+    padding: 20px 20px;
+    background-color: aliceblue;
+    border: 1px solid #111;
+}
+body{
+    margin: 50px;
+    padding: 20px;
+    border: 3px solid #666;
+}
+.유달산 {
+    color: lightpink;
+    
+}
+
+/*============ 미디어 쿼리 =============*/
+/* @ 는 at 앳 으로읽음*/
+/* 미디어 종류 : all, print, screen, speech...  그밖에 장치는 검색!*/
+@media screen and (max-width: 768px){
+    body{
+        background-color: #a4c4f1;
+    }
+
+}
+@media screen and (max-width: 500px){
+    body{
+        background-color: #b0f7c6;
+    }
+
+}
