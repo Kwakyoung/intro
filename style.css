@@ -2,6 +2,7 @@
 *{
     margin: 0;     /* (바깥) 여백 */
     padding: 0;   /* (안) 여백 */
+    font-family: 'Gowun Dodum', sans-serif;
 }
 html{
     scroll-behavior: smooth;   /* 스크롤 : 부드럽게 */
